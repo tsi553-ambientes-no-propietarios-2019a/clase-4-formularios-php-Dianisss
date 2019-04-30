@@ -12,3 +12,39 @@
  */
 
 ?>
+
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Formulario Ejercicio 3</title>    
+    <meta charset="UTF-8">
+    <meta name="formulario" content="Título de la WEB">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+  </head>  
+  <body>   
+
+    <div class = "container">
+        <h1 class = 'page-header'>Formulario </h1>
+        <form action = "usuarios.php" method = "POST"> 
+            <div class = "form-group">
+                <label>Nombre</label>
+                <input type = "text" name = "nombre" class = "form-control" style="width:300px;height:30px"/>
+            </div>
+            <div class = "form-group">
+                <label>Contraseña</label>
+                <input type = "password" name = "password" class = "form-control" style="width:200px;height:30px"/>
+            </div>
+            <div class = "form-group">
+               <button class="btn btn-primary" type="submit">Aceptar</button>
+
+            </div>
+
+            
+
+        </form>
+
+    </div>
+
+  </body>  
+</html>
